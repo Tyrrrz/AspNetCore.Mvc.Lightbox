@@ -1,0 +1,24 @@
+﻿<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox-plus-jquery.min.js"></script>
+<script>
+    (function() {
+        var d = document, s = d.createElement('link');
+        s.rel = 'stylesheet';
+        s.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css';
+        s.type = 'text/css';
+        (d.head || d.body).appendChild(s);
+        window.lightbox.option({
+            'alwaysShowNavOnTouchDevices': __AlwaysShowNavOnTouchDevices__,
+            'albumLabel': "__AlbumLabel__",
+            'disableScrolling': __DisableScrolling__,
+            'fadeDuration': __FadeDuration__,
+            'fitImagesInViewport': __FitImagesInViewport__,
+            'imageFadeDuration': __ImageFadeDuration__,
+            'maxWidth': __MaxWidth__,
+            'maxHeight': __MaxHeight__,
+            'positionFromTop': __PositionFromTop__,
+            'resizeDuration': __ResizeDuration__,
+            'showImageNumberLabel': __ShowImageNumberLabel__,
+            'wrapAround': __WrapAround__
+        });
+    })();
+</script>
